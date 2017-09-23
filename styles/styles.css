@@ -5,6 +5,10 @@ p{
   font-family: Roboto Slab, serif;  
 }
 
+.icon-bar{
+    background-color: black
+}
+
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
