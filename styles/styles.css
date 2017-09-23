@@ -167,13 +167,13 @@ p{
 }
 
 #graphite-image{
-    height: 25rem;
-    background-image: url(../images/graphrite-window.JPG);
+    height: 22rem;
+    background-image: url(../images/multi-colored.JPG);
     background-size: cover;
     background-repeat: no-repeat;
 }
 #graphite-image-bottom{
-    height: 30rem;
+    height: 25rem;
     background-image: url(../images/big-graphrite-table-mobile.JPG);
     background-size: cover;
     background-repeat: no-repeat;
@@ -264,10 +264,6 @@ p{
 .footer{
     height: 15rem;
     background-image: url(../images/Graphrite%20background.png);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 @media only screen and (min-width: 700px) {
@@ -297,16 +293,16 @@ p{
     }
 
     #graphite-image{
-        height: 33rem;
-        background-image: url(../images/graphrite-window.JPG);
+        height: 40rem;
+        background-image: url(../images/multi-colored.JPG);
         background-attachment: fixed;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
     }
     #graphite-image-bottom{
-    height: 33rem;
-        background-image: url(../images/graphrite-window.JPG);
+        height: 37rem;
+        background-image: url(../images/blue-graphite.JPG);
         background-attachment: fixed;
         background-position: center;
         background-size: cover;
