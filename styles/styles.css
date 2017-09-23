@@ -1,0 +1,426 @@
+body {
+    font-family: Roboto Slab, serif;
+}
+p{
+  font-family: Roboto Slab, serif;  
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+.navbar .navbar-nav li {
+    font-size: 2rem;
+}
+.navbar .navbar-nav li a {
+    color: black;
+    font-family: Roboto Slab, serif;
+}
+
+@media only screen and (min-width: 700px) {
+    .navbar .navbar-nav {
+      display: inline-block;
+      float: none;
+      height: 3rem;
+    }
+    .navbar .navbar-nav li {
+        font-size: 2rem;
+    }
+    .navbar .navbar-nav li a {
+        padding-left: 6rem;
+        padding-right: 6rem;
+        color: black;
+        font-family: Roboto Slab, serif;
+        padding-top: 2rem;
+    }
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+#main-container {
+    background-image: url(../images/Graphrite%20background.png);
+    width: 100%;
+    height: 25rem;
+    padding-top: 13rem;
+}
+
+@media only screen and (min-width: 700px) {
+    #main-container {
+        height: 55rem;
+        padding-top: 26rem;
+        background-image: url(../images/long-graphrite.JPG);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+}
+
+#title{
+    background-color: white;
+    height: 14rem;
+    width: 30rem;
+    text-align: center;
+    vertical-align: middle;
+    padding: 4em;
+    background-repeat: no-repeat;
+    background-image: url(../images/Graphrite%20Logo%20-%20mobile.png);
+    border: black solid 3px;
+}
+
+
+@media only screen and (min-width: 700px) {
+    #title{
+        width: 45rem;
+        padding-bottom: 16rem;
+        text-align: center;
+        vertical-align: middle;
+        background-repeat: no-repeat;
+        background-image: url(../images/Graphrite%20Logo.png);
+        border: black solid 7px;
+    }
+}
+
+#About{
+    text-align: center;
+    font-family: Roboto Slab, serif;
+    height: auto;
+}
+
+@media only screen and (min-width: 700px) {
+    #About{
+        text-align: center;
+        font-family: Roboto Slab, serif;
+        height: auto;
+    }
+}
+#About #part-1 {
+    padding-top: 8rem;
+    font-size: 200%; 
+}
+
+@media only screen and (min-width: 700px) {
+    #About #part-1 {
+        font-size: 250%;
+        padding-left : 19rem;
+        padding-right : 19rem;
+        padding-top: 10rem;
+    }
+
+}
+
+#About #part-2{
+    padding: auto;
+    font-size: 200%;
+    padding-left : 3rem;
+    padding-right : 3rem;
+    padding-top: 4rem;
+    background-color: white;
+    height: 40rem;  
+}
+
+@media only screen and (min-width: 700px) {
+    #About #part-2{
+        padding: auto;
+        font-size: 225%;
+        padding-left : 14rem;
+        padding-right : 15rem;
+        padding-top: 8rem;
+        background-color: white;
+        height: 40rem;  
+    }
+}
+
+#split-1{
+     height: 26rem;
+     text-align: center;
+     font-size: 150%;   
+}
+
+#split-1 p{
+    padding-top: 4rem;
+    vertical-align: middle;
+    text-align: center
+}
+
+#split-2{
+     height: 15rem;
+     text-align: center;
+     font-size: 150%;  
+}
+
+#split-2 p{
+    padding: 4rem 1rem;
+    vertical-align: middle;
+    text-align: center
+}
+
+#spacer-under {
+    height: 5rem;
+}
+
+#graphite-image{
+    height: 25rem;
+    background-image: url(../images/graphrite-window.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#graphite-image-bottom{
+    height: 30rem;
+    background-image: url(../images/big-graphrite-table-mobile.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#Team h1 {
+    font-family: Roboto Slab, serif;  
+    text-align: center;
+    padding-bottom: 2rem;
+    height: auto;
+    margin-top: 8rem;
+    font-size: 500%;
+
+}
+
+#Keith{
+    height: 6rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+#Keith-circle {
+    width: 265px;
+    height: 265px;
+    background-image: url(../images/keith-headshot.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+#Team p{
+    color: darkgray;
+    font-size: 170%;
+}
+
+#Spacer, #Austin, #Maddie, #Sam{
+    height: 35rem;
+    text-align: center;
+}
+
+#Austin-circle{
+    width: 225px;
+    height: 225px;
+    background-image: url(../images/austin-headshot.jpg);
+    display: block;
+    background-size: cover;
+    margin: 0 auto;
+}
+#Maddie-circle{
+    width: 225px;
+    height: 225px;
+    background-image: url(../images/maddie-headshot.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    margin: 0 auto;
+}
+#Sam-circle{
+    width: 225px;
+    height: 225px;
+    background-image: url(../images/sam-headshot.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+#Contact {
+    font-family: Roboto Slab, serif;  
+    text-align: center;
+}
+#Contact h1{
+    font-size: 500%;
+}
+#Contact h2{
+    font-size: 250%;
+}
+#Contact p{
+    margin-top: 5rem;
+    font-size: 175%;
+
+}
+
+#contact-copy{
+    margin-bottom: 7rem;
+}
+
+.footer{
+    height: 15rem;
+    background-image: url(../images/Graphrite%20background.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 700px) {
+    #split-1{
+         height: 29rem;
+         font-size: 235%;   
+         text-align: center;
+    }
+
+    #split-1 p{
+        padding-top: 5rem;
+        padding-left: 4rem;    
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    #split-2{
+         height: 23rem;
+         font-size: 235%;   
+    }
+
+    #split-2 p{
+        padding-top: 5rem;
+        padding-left: 4rem;    
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    #graphite-image{
+        height: 33rem;
+        background-image: url(../images/graphrite-window.JPG);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #graphite-image-bottom{
+    height: 33rem;
+        background-image: url(../images/graphrite-window.JPG);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+    #Team h1 {
+        font-family: Roboto Slab, serif;  
+        text-align: center;
+        height: auto;
+        margin-top: 3rem;
+        font-size: 500%;
+        margin-bottom: 3rem;
+    }
+
+
+    #Keith{
+        height: 45rem;
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    #Keith-circle {
+        width: 265px;
+        height: 265px;
+        background-image: url(../images/keith-headshot.JPG);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #Team p{
+        padding-top: 3rem;
+        color: darkgray;
+        font-size: 170%;
+    }
+
+    #Spacer, #Austin, #Maddie, #Sam{
+        height: 45rem;
+        text-align: center;
+        margin-left: 
+    }
+
+    #Austin-circle{
+        width: 225px;
+        height: 225px;
+        background-image: url(../images/austin-headshot.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        margin: 0 auto;
+    }
+    #Maddie-circle{
+        width: 225px;
+        height: 225px;
+        background-image: url(../images/maddie-headshot.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        margin: 0 auto;
+    }
+    #Sam-circle{
+        width: 225px;
+        height: 225px;
+        background-image: url(../images/sam-headshot.JPG);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    #spacer-graphite{
+        height: 37rem;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(../images/big-graphrite-table.JPG);
+    }
+
+    #Contact {
+        font-family: Roboto Slab, serif;  
+        text-align: center;
+    }
+    #Contact h1{
+        font-size: 500%;
+        margin-bottom: 4rem;
+        margin-top: 6rem;
+    }
+    #Contact h2{
+        font-size: 250%;
+    }
+    #Contact p{
+        margin-top: 5rem;
+        font-size: 175%;
+
+    }
+
+    #contact-copy{
+        padding-left: 30rem;
+        padding-right: 30rem;
+        margin-bottom: 15rem;
+    }
+
+    .footer{
+        height: 15rem;
+        background-image: url(../images/Graphrite%20background.png);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+
+
+
+
+
+
+
