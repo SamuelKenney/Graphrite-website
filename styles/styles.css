@@ -162,11 +162,9 @@ p{
     vertical-align: middle;
     text-align: center
 }
-
 #spacer-under {
     height: 5rem;
 }
-
 #graphite-image{
     height: 22rem;
     background-image: url(../images/multi-colored-mobile.JPG);
@@ -179,18 +177,19 @@ p{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 #Team h1 {
     font-family: Roboto Slab, serif;  
     text-align: center;
     padding-bottom: 2rem;
     height: auto;
-    margin-top: 12rem;
+    margin-top: 9rem;
     font-size: 500%;
 
 }
 
 #Keith{
-    height: 6rem;
+    height: 40rem;
     text-align: center;
     padding-top: 1rem;
 }
@@ -215,6 +214,7 @@ p{
     height: 35rem;
     text-align: center;
 }
+
 
 #Austin-circle{
     width: 225px;
@@ -260,7 +260,16 @@ p{
 }
 
 #contact-copy{
-    margin-bottom: 7rem;
+    margin-bottom: 4rem;
+}
+
+#Share {
+    text-align: center;
+    padding-bottom: 5rem;
+}
+#Share p {
+    font-size: 150%;
+    padding-bottom: 1rem;
 }
 
 .footer{
@@ -268,7 +277,9 @@ p{
     background-image: url(../images/Graphrite%20background.png);
 }
 
-@media only screen and (min-width: 700px) {
+
+
+@media only screen and (min-width: 900px) {
     #split-1{
          height: 29rem;
          font-size: 235%;   
@@ -342,10 +353,10 @@ p{
         font-size: 170%;
     }
 
-    #Spacer, #Austin, #Maddie, #Sam{
-        height: 45rem;
+    #Austin, #Maddie, #Sam{
+        height: 35rem;
+        margin-bottom: 5rem;
         text-align: center;
-        margin-left: 
     }
 
     #Austin-circle{
@@ -406,7 +417,15 @@ p{
     #contact-copy{
         padding-left: 30rem;
         padding-right: 30rem;
-        margin-bottom: 15rem;
+    }
+    
+    #Share {
+        text-align: center;
+        padding-bottom: 5rem;
+    }
+    #Share p {
+        font-size: 150%;
+        padding-bottom: 1rem;
     }
 
     .footer{
