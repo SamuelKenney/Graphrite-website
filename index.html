@@ -15,10 +15,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   <meta property="og:url"                content="http://www.graphrite.com" />
+  <meta property="og:url"                content="graphrite.com" />
   <meta property="og:type"               content="website" />
   <meta property="og:title"              content="The Graphrite" />
   <meta property="og:description"        content="These machined wonders are the union of a variety of graphing tools to make homework,                                                           woodwork, or just plain old work easier for you." />
-  <meta property="og:image"              content="../images/big-graphrite-table-mobile.JPG" />
+  <meta property="og:image"              content="http://graphrite.com/images/big-graphrite-table-mobile.JPG" />
+  <meta property="fb:app_id"             content="283089982180867"/>
     
 
   <link rel="stylesheet" href="styles/styles.css">
@@ -29,6 +31,33 @@
           href="https://fonts.googleapis.com/css?family=Roboto Slab">
 </head>
 <body>
+<!-- Facebook SDK -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '283089982180867',
+      xfbml      : true,
+      version    : 'v2.10'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+    
+<!-- For later use with social media
+div
+  class="fb-like"
+  data-share="true"
+  data-width="450"
+  data-show-faces="true">
+</div> -->
     
 <nav class="navbar">
   <div class="container-fluid">
