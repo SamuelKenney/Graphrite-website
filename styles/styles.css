@@ -135,7 +135,7 @@ p{
         padding-right : 15rem;
         padding-top: 8rem;
         background-color: white;
-        height: 40rem;  
+        height: auto;  
     }
 }
 
